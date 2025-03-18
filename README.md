@@ -1,2 +1,2 @@
-# Short-Exercises-
-Short Exercises 
+# Shape up exercises-
+Shape up 
