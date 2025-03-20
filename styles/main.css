@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+    font: size 100%;}
+header img{
+    float:left;
+    padding: 10px;
+}
+header h1{
+    font-style:italic;
+    font-size: 300%;
+    color:steelblue;
+    text-indent: 30px;
+    
+}
+header h2{
+    text-indent:30px;
+}
+section{
+    a:visited{color: maroon};
+    a:link{color:maroon};
+    a:hover,a:focus{color:steelblue};
+}
+aside h1{
+    color:maroon;
+}
+aside ul{
+    line-height: 1.5;
+    font-weight: bold;
+    a:link{color:steelblue};
+    a:visited{color: steelblue;};
+    a:hover, a:focus{color:maroon};
+}
+footer{
+    font-size:80%; 
+    text-align: center;
+}
