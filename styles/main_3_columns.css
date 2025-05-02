@@ -1,0 +1,128 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: calc(1vw + 0.5em); /* Fluid font size */
+}
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+}
+
+header {
+    background: linear-gradient(to bottom, white, lightsteelblue);
+    padding-bottom: 2em;
+    border-bottom: solid steelblue;
+}
+
+header img {
+    float: left;
+    padding: 10px;
+    max-width: 120px;
+    min-width: 100px;
+    width: 100%;
+    height: auto;
+}
+
+header h1 {
+    font-style: italic;
+    font-size: 300%;
+    color: steelblue;
+    text-indent: 30px;
+    margin: 0.5em 0 0.25em 0;
+}
+
+header h2 {
+    text-indent: 30px;
+}
+/* Left Aside (Additional Resources) */
+#left {
+    flex: 1 1 25%; 
+    padding: 1em;
+    border: 3px solid steelblue;
+    border-radius: 20px;
+}
+
+/* Main flexbox container */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    flex-wrap: wrap;
+}
+/* Main section (content) */
+section {
+    flex: 1 1 50%; /* 50% width, for main content */
+    padding: 1em;
+}
+
+section a:visited {
+    color: maroon;
+}
+
+section a:link {
+    color: maroon;
+}
+
+section a:hover,
+section a:focus {
+    color: steelblue;
+}
+
+/* Right Aside (How to Prepare) */
+#right {
+    flex: 1 1 25%; /* 25% width */
+    padding: 1em;
+    border: 3px solid steelblue;
+    border-radius: 20px;
+}
+
+aside h1 {
+    color: maroon;
+    margin: 0.5em 0 0.5em 0.25em;
+}
+
+aside ul {
+    line-height: 1.5;
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+aside ul a:link {
+    color: steelblue;
+}
+
+aside ul a:visited {
+    color: steelblue;
+}
+
+aside ul a:hover,
+aside ul a:focus {
+    color: maroon;
+}
+
+aside li {
+    margin: 0.5em 0 1em 0;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    margin-top: 5em;
+    padding: 1em 0;
+    font-size: 80%;
+    text-align: center;
+    background-color: steelblue;
+}
+
+footer p {
+    color: white;
+}
